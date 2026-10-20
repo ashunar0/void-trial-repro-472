@@ -5,6 +5,8 @@ allowBuilds:
   workerd: true
 overrides:
   vite@*: npm:@voidzero-dev/vite-plus-core@^1.2.0
+  void: link:/Users/a.kawanobe/dev/hono/void/packages/void
+  "@void/react": link:/Users/a.kawanobe/dev/hono/void/packages/react
 peerDependencyRules:
   allowedVersions:
     vite: "*"
