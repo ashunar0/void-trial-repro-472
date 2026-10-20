@@ -6,3 +6,4 @@ export const messages = sqliteTable("messages", {
   text: text("text").notNull(),
   createdAt: text("created_at").notNull().default(sql`(datetime('now'))`),
 });
+export * from "./schema/todos";
